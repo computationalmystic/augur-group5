@@ -478,6 +478,24 @@ class GHTorrent(object):
             GROUP BY YEARWEEK(DATE(pull_request_history.created_at))
         """)
         return pd.read_sql(pullsSQL, self.db, params={"repoid": str(repoid)})
+    
+    """
+    Augur Group 5 Use Case 1, experimental
+    """
+    @annotate(tag='user-ratio')
+    def user_ratio(self, owner, repo=None)
+        """
+        How many commits is each user making on average
+        """
+        df = pd.DataFrame()
+        repoid = self.repoid(owner, repo)
+	    commitsSQL = s.sql.text(self.__single_table_count_by_date(‘commits’, group_by=group_by))
+	    df['commits'] = pd.read_sql(commitsSQL, self.db, params={“repoid”: str(repoid)})
+        df['users'] = GET /repo/:owner/:repo/stats/contributors
+        df['ratio'] = df.commits/df.users
+       
+        return df
+    
 
     #####################################
     ###            RISK               ###
