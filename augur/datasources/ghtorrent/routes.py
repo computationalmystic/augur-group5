@@ -398,6 +398,11 @@ def create_routes(server):
                         ]
     """
     server.addTimeseries(ghtorrent.watchers, 'watchers')
+    
+    """
+    Augur Group 5 Use Case 1
+    """
+    server.addTimeseries(ghtorrent.user_ratio, 'user-ratio')
 
     #####################################
     ###         EXPERIMENTAL          ###
