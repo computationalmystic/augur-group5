@@ -107,3 +107,6 @@ Copyright © 2018 University of Nebraska at Omaha, University of Missouri and CH
 Augur is free software: you can redistribute it and/or modify it under the terms of the MIT License as published by the Open Source Initiative. See the file [LICENSE](LICENSE) for more details.
 
 (This work has been funded through the Alfred P. Sloan Foundation)
+
+## Final Thoughts
+After many issues I was not able to fully implement my desired use case, which was to provide a metric on the breakdown of the different languages used in a project. There were also many issues with the deployment environment, some of which I was able to solve. I had no previous experience with ubuntu and only some experience with web servers. Overall, this was a valuable learning experience even though the final product was not very impressive.
