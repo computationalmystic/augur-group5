@@ -32,7 +32,7 @@
     "lodash": "^4.17.11",
     "metrics-graphics": "^2.15.6",
     "moment": "^2.22.2",
-    "npm": "^6.2.0",
+    "npm": "^6.13.4",
     "query-string2": "^0.1.2",
     "svgsaver": "^0.9.0",
     "vega": "^4.1.0",
