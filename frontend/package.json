@@ -28,7 +28,7 @@
     "css-loader": "^0.28.9",
     "d3": "^5.5.0",
     "hoek": "^5.0.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.11",
     "metrics-graphics": "^2.15.6",
     "moment": "^2.22.2",
